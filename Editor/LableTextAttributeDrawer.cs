@@ -1,13 +1,15 @@
 using UnityEditor;
 using UnityEngine;
 
-[CustomPropertyDrawer(typeof(ReadOnlyFieldAttribute))]
-public class ReadOnlyFieldDrawer : PropertyDrawer
+[CustomPropertyDrawer(typeof(LableTextAttribute))]
+public class LableTextAttributeDrawer : PropertyDrawer
 {
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
     {
-        GUI.enabled = false;
+        var a = attribute as LableTextAttribute;
+
+        label.text = a.DisplayName;
+
         EditorGUI.PropertyField(position, property, label);
-        GUI.enabled = true;
     }
 }
