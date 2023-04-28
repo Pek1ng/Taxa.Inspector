@@ -1,0 +1,11 @@
+{
+  "name": "com.taxa.Inspector",
+  "version": "0.0.1",
+  "displayName": "Taxa.Inspector",
+  "description": "Taxa.Inspector",
+  "unity": "2021.3",
+  "author": {
+    "name": "Peking"
+  },
+  "hideInEditor": false
+}
