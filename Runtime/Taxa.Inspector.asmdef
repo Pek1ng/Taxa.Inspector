@@ -1,6 +1,6 @@
 {
     "name": "Taxa.Inspector",
-    "rootNamespace": "Taxa",
+    "rootNamespace": "",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
